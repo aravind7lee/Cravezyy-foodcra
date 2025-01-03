@@ -5,7 +5,7 @@ import axios from "axios";
 export const StoreContext = createContext();
 
 const StoreContextProvider = (props) => {
-  const url = "https://foodcra-backend.onrender.com"; // Backend API base URL
+  const url = "https://cravezyy-foodcra-backend.onrender.com"; // Backend API base URL
   const [food_list, setFoodList] = useState([]); // Food list state from the API
   const [filteredFoodList, setFilteredFoodList] = useState([]); // Filtered food list for search or category
   const [cartItems, setCartItems] = useState({}); // Stores items added to the cart
