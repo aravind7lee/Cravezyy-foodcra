@@ -42,12 +42,45 @@
         max-width: 45%;
     }
 }
+
 @media(max-width:750px){
     .header-contents{
         max-width: 55%;
     }
     .header-contents p{
        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
+@media(max-width:500px){
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+       display: none;
+    }
+    .header-contents h2{
+        font-size: 17px
+
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
+@media(max-width:400px){
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+       display: none;
+    }
+    .header-contents h2{
+        font-size: 18px;
+        margin-bottom: 20px;
     }
     .header-contents button{
         padding: 2vw 4vw;
